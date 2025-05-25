@@ -1,0 +1,17 @@
+----- ORDER RECEIPT -----
+Date: 2025-05-25 15:25:33
+-------------------------
+--- Current Order Details ---
+  1. LARGE WHITE Sandwich (toasted) ($9.00)
+            Toasted: Yes
+            Toppings: Jalapenos, Pickles
+            Sauces: Ranch
+  2. large water Drink ($3.00)
+  3. original Chips ($1.50)
+  4. MEDIUM SOURDOUGH Sandwich (toasted) ($7.00)
+            Toasted: Yes
+            Toppings: Peppers, Onions, Tomatoes
+----------------------------------
+Subtotal: $20.50
+-------------------------
+Thank you for your order!

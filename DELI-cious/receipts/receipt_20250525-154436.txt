@@ -1,0 +1,12 @@
+----- ORDER RECEIPT -----
+Date: 2025-05-25 15:44:36
+-------------------------
+--- Current Order Details ---
+  1. LARGE SOURDOUGH Sandwich (toasted) ($10.50)
+            Toasted: Yes
+            Meats: Steak
+            Toppings: Onions
+----------------------------------
+Subtotal: $10.50
+-------------------------
+Thank you for your order!

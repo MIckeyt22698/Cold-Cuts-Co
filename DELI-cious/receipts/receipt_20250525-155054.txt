@@ -1,0 +1,16 @@
+----- ORDER RECEIPT -----
+Date: 2025-05-25 15:50:54
+-------------------------
+--- Current Order Details ---
+  1. SMALL SOURDOUGH Sandwich (toasted) ($7.00)
+            Toasted: Yes
+            Meats: Chicken
+            Cheeses: Cheddar Cheese
+            Toppings: Lettuce, Onions, Jalapenos
+            Sauces: Mayonnaise
+  2. medium water Drink ($2.50)
+  3. salt & vinegar Chips ($1.50)
+----------------------------------
+Subtotal: $11.00
+-------------------------
+Thank you for your order!

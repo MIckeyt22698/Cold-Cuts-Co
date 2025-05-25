@@ -3,60 +3,69 @@ package com.pluralsight.models;
 import java.util.ArrayList;
 import java.util.List;
 
-class Order {
-    private List<Sandwich> sandwiches;
-    private List<Drink> drinks;
-    private List<Chips> chips;
+public class Order {
+    // This list now generically holds any item that implements OrderableItem
+    private List<OrderableItems> items;
 
     public Order() {
-        this.sandwiches = new ArrayList<>();
-        this.drinks = new ArrayList<>();
-        this.chips = new ArrayList<>();
+        this.items = new ArrayList<>();
+    }
+
+    // Generic method to add any item that can be ordered
+    public void addItem(OrderableItems item) {
+        this.items.add(item);
+        System.out.println("Added to order: " + item.getName());
+    }
+
+    // Specific add methods for convenience, delegating to the generic addItem
+    public void addDrink(Drink drink) {
+        addItem(drink);
     }
 
     public void addSandwich(Sandwich sandwich) {
-        sandwiches.add(0, sandwich);
+        addItem(sandwich);
     }
 
-    public void addDrink(Drink drink) {
-        drinks.add(0, drink);
+    public void addChips(Chips chips) {
+        addItem(chips);
     }
 
-    public void addChips(Chips chip) {
-        chips.add(0, chip);
-    }
-
-    public List<Sandwich> getSandwiches() {
-        return sandwiches;
-    }
-
-    public List<Drink> getDrinks() {
-        return drinks;
-    }
-
-    public List<Chips> getChips() {
-        return chips;
+    public List<OrderableItems> getItems() {
+        return items;
     }
 
     public double calculateTotal() {
         double total = 0;
-        for (Sandwich s : sandwiches) {
-            total += 5.0; // base price
-            total += s.getMeats().size() * 1.5;
-            total += s.getCheeses().size() * 1.0;
-            total += s.getToppings().size() * 0.5;
+        for (OrderableItems item : items) {
+            total += item.getPrice(); // Calculate total using getPrice() from OrderableItem
         }
-        total += drinks.size() * 1.75;
-        total += chips.size() * 1.25;
         return total;
     }
 
     @Override
     public String toString() {
-        return "Order:\n" +
-                "Sandwiches: " + sandwiches + "\n" +
-                "Drinks: " + drinks + "\n" +
-                "Chips: " + chips + "\n" +
-                "Total: $" + calculateTotal();
+        StringBuilder sb = new StringBuilder();
+        sb.append("--- Current Order Details ---\n");
+        if (items.isEmpty()) {
+            sb.append("  (No items in order yet)\n");
+        } else {
+            for (int i = 0; i < items.size(); i++) {
+                OrderableItems item = items.get(i);
+                sb.append(String.format("  %d. %s ($%.2f)\n", (i + 1), item.getName(), item.getPrice()));
+                // If it's a Sandwich, print its detailed toString indented
+                if (item instanceof Sandwich) {
+                    String sandwichDetails = item.toString();
+                    String[] lines = sandwichDetails.split("\n");
+                    // Start from the second line of sandwichDetails to avoid duplicating the first line
+                    for (int j = 1; j < lines.length; j++) {
+                        sb.append("      ").append(lines[j]).append("\n");
+                    }
+                }
+            }
+        }
+        sb.append("----------------------------------\n");
+        sb.append(String.format("Subtotal: $%.2f\n", calculateTotal()));
+        // Add tax, total logic here if needed
+        return sb.toString();
     }
 }
