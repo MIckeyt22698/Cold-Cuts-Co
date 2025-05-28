@@ -1,0 +1,15 @@
+----- ORDER RECEIPT -----
+Date: 2025-05-28 10:25:25
+-------------------------
+--- Current Order Details ---
+  1. MEDIUM WHEAT Sandwich ($8.75)
+            Toasted: No
+            Meats: Turkey
+            Cheeses: Provolone Cheese
+            Toppings: Onions
+  2. Spicy Nacho Chips ($1.50)
+  3. small diet cola Drink ($2.00)
+----------------------------------
+Subtotal: $12.25
+-------------------------
+Thank you for your order!

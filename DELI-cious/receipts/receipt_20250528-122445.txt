@@ -1,0 +1,10 @@
+----- ORDER RECEIPT -----
+Date: 2025-05-28 12:24:45
+-------------------------
+--- Current Order Details ---
+  1. large diet cola Drink ($3.00)
+  2. small water Drink ($2.00)
+----------------------------------
+Subtotal: $5.00
+-------------------------
+Thank you for your order!
