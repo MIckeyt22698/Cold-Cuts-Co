@@ -1,0 +1,17 @@
+----- ORDER RECEIPT -----
+Date: 2025-05-28 15:58:39
+-------------------------
+--- Current Order Details ---
+  1. LARGE WHEAT Sandwich (toasted) ($11.75)
+            Toasted: Yes
+      [91m      Meats: Turkey, Salami[0m
+      [93m      Cheeses: Provolone Cheese[0m
+      [92m      Toppings: Lettuce, Tomatoes, Onions[0m
+      [96m      Sauces: Mayonnaise[0m
+  2. large sprite Drink ($3.00)
+  3. bbq Chips ($1.50)
+  4. spicy nacho Chips ($1.50)
+----------------------------------
+Subtotal: $17.75
+-------------------------
+Thank you for your order!
