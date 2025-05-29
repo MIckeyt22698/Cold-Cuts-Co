@@ -1,0 +1,14 @@
+----- ORDER RECEIPT -----
+Date: 2025-05-29 10:40:34
+-------------------------
+--- Current Order Details ---
+  1. SMALL Italian ($6.75)
+            Toasted: Yes
+      [91m      Meats: Salami[0m
+      [93m      Cheeses: Provolone Cheese[0m
+      [92m      Toppings: Lettuce, Tomatoes, Onions, Olives, Peppers[0m
+      [96m      Sauces: Vinaigrette[0m
+----------------------------------
+Subtotal: $6.75
+-------------------------
+Thank you for your order!

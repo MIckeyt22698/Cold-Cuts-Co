@@ -1,0 +1,17 @@
+----- ORDER RECEIPT -----
+Date: 2025-05-29 11:36:34
+-------------------------
+--- Current Order Details ---
+  1. MEDIUM Italian ($12.00)
+            Toasted: Yes
+      [91m      Meats: Salami, Ham, Steak[0m
+      [93m      Cheeses: Provolone Cheese, American Cheese[0m
+      [92m      Toppings: Lettuce, Tomatoes, Onions, Olives, Peppers, Lettuce[0m
+      [96m      Sauces: Vinaigrette, Mayonnaise[0m
+  2. medium cola Drink ($2.50)
+  3. medium root beer Drink ($2.50)
+  4. Cheddar & Sour Cream Chips ($1.50)
+----------------------------------
+Subtotal: $18.50
+-------------------------
+Thank you for your order!
