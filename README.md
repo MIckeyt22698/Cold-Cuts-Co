@@ -1,3 +1,45 @@
+## Features
+
+* **Custom Sandwich Builder:**
+    * Step-by-step guided process for selecting bread type and sandwich size.
+    * Categorized topping selection (Meats, Cheeses, Veggies/Other, Sauces) for easy Browse.
+    * Ability to add multiple toppings from each category.
+    * Streamlined navigation between topping categories (just press Enter to move to the next).
+    * Option to toast the sandwich.
+* **Signature Sandwiches:**
+    * Choose from pre-defined signature sandwiches (e.g., Philly Cheesesteak, Italian, Veggie Delight).
+    * Signature sandwiches come with default toppings but can be further customized.
+* **Order Management:**
+    * Add sandwiches, drinks, and chips to the current order.
+    * View a summary of the current order at any time.
+    * Option to remove items from the order.
+* **Checkout & Receipt:**
+    * Calculate the total cost of the order.
+    * Generate a detailed receipt displayed in the console.
+    * Option to cancel the entire order.
+* **User-Friendly Console Interface:**
+    * Clear prompts and instructional messages.
+    * Utilizes console colors for enhanced readability and visual appeal.
+    * Robust input handling to prevent errors and guide the user.
+ 
+
+
+
+**Strong OOP Paradigm:**
+    * Core entities like `Order`, `Sandwich`, `Topping`, `Drink`, and `Chip` are represented by dedicated classes, encapsulating their data and behavior.
+    * **Inheritance** is used for `SignatureSandwich` extending `Sandwich`, and specific signature sandwiches extending `SignatureSandwich`, promoting code reuse.
+    * **Polymorphism** is achieved through an `OrderableItem` interface (implemented by `Sandwich`, `Drink`, `Chip`), allowing the `Order` to uniformly calculate prices for any item type.
+* **Separation of Concerns:**
+    * UI logic (`AddSandwichScreen`, `OrderScreen`, etc.) is distinct from core business logic (model classes like `Sandwich`, `Order`).
+    * Utility classes (`InputHelper`, `ConsoleColors`, `Menu`) handle specific cross-cutting concerns like input validation, console formatting, and data provisioning, keeping the main logic clean.
+* **Streamlined Console UX:**
+    * Implemented a guided, step-by-step ordering flow.
+    * Toppings are categorized and presented clearly. A significant UX improvement was allowing users to simply press **ENTER** to move between topping categories, reducing unnecessary typing.
+    * Clear and consistent feedback messages guide the user through the process.
+ 
+
+
+
 # Cold-Cuts-Co.
 ```mermaid
 classDiagram
