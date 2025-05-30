@@ -1,0 +1,16 @@
+----- ORDER RECEIPT -----
+Date: 2025-05-29 14:25:00
+-------------------------
+--- Current Order Details ---
+  1. LARGE WHITE Sandwich (toasted) ($12.00)
+            Toasted: Yes
+      [91m      Meats: Steak[0m
+      [93m      Cheeses: Cheddar Cheese, Swiss Cheese[0m
+      [92m      Toppings: Jalapenos, Lettuce, Peppers, Spinach, Pesto[0m
+      [96m      Sauces: Mayonnaise[0m
+  2. large sprite Drink ($3.00)
+  3. salt & vinegar Chips ($1.50)
+----------------------------------
+Subtotal: $16.50
+-------------------------
+Thank you for your order!

@@ -1,4 +1,8 @@
-package com.pluralsight.models;
+package com.pluralsight.models.PremadeSandwich;
+
+import com.pluralsight.models.BreadType;
+import com.pluralsight.models.Sandwich;
+import com.pluralsight.models.Size;
 
 public abstract class SignatureSandwich extends Sandwich {
     protected String signatureName; // To hold the specific name like "Philly Cheesesteak"

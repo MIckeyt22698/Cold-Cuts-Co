@@ -1,8 +1,7 @@
 package com.pluralsight.models.PremadeSandwich;
 
-import com.pluralsight.data.Menu;
+import com.pluralsight.models.Menu;
 import com.pluralsight.models.BreadType;
-import com.pluralsight.models.SignatureSandwich;
 import com.pluralsight.models.Size;
 
 public class VeggieDelightSandwich extends SignatureSandwich {

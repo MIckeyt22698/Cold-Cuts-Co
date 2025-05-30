@@ -1,0 +1,14 @@
+----- ORDER RECEIPT -----
+Date: 2025-05-29 11:52:40
+-------------------------
+--- Current Order Details ---
+  1. MEDIUM Italian ($9.75)
+            Toasted: Yes
+      [91m      Meats: Salami, Ham[0m
+      [93m      Cheeses: Provolone Cheese[0m
+      [92m      Toppings: Lettuce, Tomatoes, Onions, Olives, Peppers[0m
+      [96m      Sauces: Vinaigrette[0m
+----------------------------------
+Subtotal: $9.75
+-------------------------
+Thank you for your order!
