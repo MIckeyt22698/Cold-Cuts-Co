@@ -37,6 +37,16 @@
     * Toppings are categorized and presented clearly. A significant UX improvement was allowing users to simply press **ENTER** to move between topping categories, reducing unnecessary typing.
     * Clear and consistent feedback messages guide the user through the process.
  
+Important Screenshots
+![image](https://github.com/user-attachments/assets/5b729b2a-351d-4461-94ab-5cf4a88e0fa7)
+![image](https://github.com/user-attachments/assets/608f670b-220c-4cc0-adeb-bfbb5f726f05)
+![image](https://github.com/user-attachments/assets/d6c30938-4194-420a-a6ed-a5675a736697)
+![image](https://github.com/user-attachments/assets/9a526d63-245b-428b-aa94-477456e660d0)
+
+
+
+
+ 
 
 
 
